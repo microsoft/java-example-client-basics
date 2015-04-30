@@ -1,0 +1,100 @@
+{
+    "app-install": {
+        "repository": [
+        ]
+    },
+    "app-run": {
+        "requireAuthentication": true,
+        "tutorial": {
+            "help": "https://github.com/deployr/java-example-client-basics",
+            "topics": [
+                {
+                    "topic": "Get Connected",
+                    "menu": [
+                        {
+                            "item": "Connect",
+                            "args": "com.revo.deployr.tutorial.connection.Connect"
+                        }
+                    ]
+                },
+                {
+                    "topic": "Get Authenticated",
+                    "menu": [
+                        {
+                            "item": "Authenticate",
+                            "args": "com.revo.deployr.tutorial.authentication.Authenticate"
+                        }
+                    ]
+                },
+                {
+                    "topic": "Authenticated Project Services",
+                    "menu": [
+                        {
+                            "item": "Project Create",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectCreate"
+                        },
+                        {
+                            "item": "Project Directory",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectDirectory"
+                        },
+                        {
+                            "item": "Project Workspace",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectWorkspace"
+                        },
+                        {
+                            "item": "Project Execute Code",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectExecuteCode"
+                        },
+                        {
+                            "item": "Project Execute Script",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectExecuteScript"
+                        },
+                        {
+                            "item": "Project Pool Create",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectPoolCreate"
+                        },
+                        {
+                            "item": "Project Packages",
+                            "args": "com.revo.deployr.tutorial.services.project.AuthProjectPackages"
+                        }
+                    ]
+                },
+                {
+                    "topic": "Authenticated Background Services",
+                    "menu": [
+                        {
+                            "item": "Background Code Execute",
+                            "args": "com.revo.deployr.tutorial.services.background.AuthJobExecuteCode"
+                        },
+                        {
+                            "item": "Background Script Execute",
+                            "args": "com.revo.deployr.tutorial.services.background.AuthJobExecuteScript"
+                        },
+                        {
+                            "item": "Background Execute-then-Repository-Store",
+                            "args": "com.revo.deployr.tutorial.services.background.AuthJobStoreResultToRepository"
+                        }
+                    ]
+                },
+                {
+                    "topic": "Authenticated Repository Services",
+                    "menu": [
+                        {
+                            "item": "Repository File Management",
+                            "args": "com.revo.deployr.tutorial.services.repository.AuthRepositoryManagement"
+                        }
+                    ]
+                },
+              {
+                    "topic": "Anonymous Project Services",
+                    "menu": [
+                        {
+                            "item": "Project Execute Script",
+                            "args": "com.revo.deployr.tutorial.services.project.AnonProjectExecuteScript"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

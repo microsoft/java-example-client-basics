@@ -48,11 +48,11 @@ An anonymous user, being any user that has not authenticated with the DeployR se
 
 ### Tutorial: Running The Examples
 
-Use the [DeployR CLI](https://github.com/deployr/deployr-cli) to download and run the java-example-client-basics examples.
+Use the [DeployR CLI](https://github.com/microsoft/deployr-cli) to download and run the java-example-client-basics examples.
 
 ## License ##
 
-Copyright (C) 2010-2015 by Revolution Analytics Inc.
+opyright (C) 2010-2016, Microsoft Corporation
 
 This program is licensed to you under the terms of Version 2.0 of the
 Apache License. This program is distributed WITHOUT
